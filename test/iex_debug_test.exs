@@ -3,6 +3,7 @@ defmodule IexDebugTest do
   doctest IexDebug
 
   test "greets the world" do
+    require IEx; IEx.pry()
     assert IexDebug.hello() == :world
   end
 end
